@@ -7,7 +7,7 @@
        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="restaurant_menu" />
+    <context:component-scan base-package="restaurant.menu" />
 
     <bean class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">
         <property name="locations">
