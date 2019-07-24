@@ -10,7 +10,7 @@ Feature: Find restaurant dishes from the menu
     When I add a dish
     Then the dish is added
 
-  Scenario: Add a dish with to the menu (parametised)
+  Scenario: Add a dish to the menu (parametised)
     Given I want to add a dish
     When I add the dish Prawn Curry at a price of 7 pounds
     Then the dish Prawn Curry at a price of 7 pounds is added
